@@ -1,15 +1,21 @@
 package com.example.moment;
 
 import android.Manifest;
+import android.graphics.Color;
 import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.skt.Tmap.TMapGpsManager;
+import com.skt.Tmap.TMapPoint;
+import com.skt.Tmap.TMapPolyLine;
 import com.skt.Tmap.TMapView;
+
+import java.util.ArrayList;
 
 public class MapActivity extends AppCompatActivity implements TMapGpsManager.onLocationChangedCallback {
 
@@ -59,9 +65,21 @@ public class MapActivity extends AppCompatActivity implements TMapGpsManager.onL
         tMapGPS.OpenGps();
     }
 
+    TMapPolyLine tMapPolyLine = new TMapPolyLine();
+    ArrayList<TMapPoint> alTMapPoint = new ArrayList<TMapPoint>();
+
     @Override
     public void onLocationChange(Location location) {
         tMapView.setLocationPoint(location.getLongitude(), location.getLatitude());
         tMapView.setCenterPoint(location.getLongitude(), location.getLatitude());
+        TMapPoint point = tMapGPS.getLocation();
+        double Latitude = point.getLatitude();
+        double Longitude = point.getLongitude();
+        // Log.i("point", String.valueOf(point));
+
+        alTMapPoint.add( new TMapPoint(Latitude, Longitude) );
+        tMapPolyLine.setLineColor(Color.BLUE);
+        tMapPolyLine.setLineWidth(2);
+        tMapView.addTMapPolyLine("Line", tMapPolyLine);
     }
 }
