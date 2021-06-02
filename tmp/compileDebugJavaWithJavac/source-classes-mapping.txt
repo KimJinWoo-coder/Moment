@@ -1,0 +1,13 @@
+com/sample/kakao/databinding/ActivityMainBinding.java
+ com.sample.kakao.databinding.ActivityMainBinding
+com/sample/kakao/KakaoApplication.java
+ com.sample.kakao.KakaoApplication
+com/sample/kakao/BuildConfig.java
+ com.sample.kakao.BuildConfig
+com/sample/kakao/databinding/ActivityLoginBinding.java
+ com.sample.kakao.databinding.ActivityLoginBinding
+com/sample/kakao/MainActivity.java
+ com.sample.kakao.MainActivity
+ com.sample.kakao.MainActivity$1
+ com.sample.kakao.MainActivity$2
+ com.sample.kakao.MainActivity$3

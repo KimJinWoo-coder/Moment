@@ -1,0 +1,310 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/cc450b7a55b3657fdec501d831d92641/jetified-viewbinding-4.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30ad1e15796e6079032b90678b801862/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.kakao.sdk:v2-user:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/dc7c4c6b008f958783ecf4562f2a5533/jetified-v2-user-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:v2-talk:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/90b82b784b1c2e35b7d9499ee3ed1902/jetified-v2-talk-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:v2-story:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8eb02f0ca4ab2b8f90ffd28f85dd74c1/jetified-v2-story-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d7de2dc3bc859c7215eda8912d27136/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.kakao.sdk:v2-link:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/6ef7d961e839c469d64a24b5e34490a8/jetified-v2-link-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/f14dce0b4344eb0a6956e396cba5c343/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.kakao.sdk:v2-template:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d98b723cff24ee1fa217fe37fd616ef/jetified-v2-template-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/43431b80c84bfc9fa26ea02a1787195f/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/3ec18cc8a559ac30df85d0d855fb7b0e/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/866a6791e8083f045b6388af6b7adb19/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/5503ff9e4fba1ca944360e0ad846cffa/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/381df62da00fed15579b7b9f69e771ec/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/fec2ec80030f1d09e810d5e19a899664/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/660b92ca70a8558446c387ae4e7bdc42/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7c2cad3e78ad42de7cf077768b385948/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2369de5657f5656a0f2fb83cd2e1b6bd/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7a24fa065fdd5b02d46f996a244c8968/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/471922250ef12ae0d0c5a1035d583d5d/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/5926825aae1efb554c51c7d50811be02/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/535b316eb59403c1a9122a03636063ed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d4ca56c128363fbcd558fe6d20ec511/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2d9959f3a90288d3a16c8d3481853e50/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:7:5-40:19
+MERGED from [com.google.android.material:material:1.2.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30ad1e15796e6079032b90678b801862/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30ad1e15796e6079032b90678b801862/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:11:5-21:19
+MERGED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:11:5-21:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/f14dce0b4344eb0a6956e396cba5c343/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/f14dce0b4344eb0a6956e396cba5c343/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/381df62da00fed15579b7b9f69e771ec/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/381df62da00fed15579b7b9f69e771ec/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/fec2ec80030f1d09e810d5e19a899664/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/fec2ec80030f1d09e810d5e19a899664/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7c2cad3e78ad42de7cf077768b385948/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7c2cad3e78ad42de7cf077768b385948/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/381df62da00fed15579b7b9f69e771ec/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:14:9-48
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:8:9-41
+activity#com.sample.kakao.LoginActivity
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:16:9-17:20
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:16:19-48
+activity#com.sample.kakao.MainActivity
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.kakao.sdk.auth.AuthCodeHandlerActivity
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:27:9-39:20
+MERGED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:17:9-20:56
+MERGED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:17:9-20:56
+	android:launchMode
+		ADDED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:19:13-44
+	android:theme
+		ADDED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:20:13-53
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:27:19-76
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:oauth+data:scheme:kakao94b1f974c57cec1e31d33f8a4acc4829
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:28:13-38:29
+action#android.intent.action.VIEW
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:31:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:32:27-75
+data
+ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:35:17-37:78
+	android:host
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:36:21-41
+	android:scheme
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml:37:21-75
+uses-sdk
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/cc450b7a55b3657fdec501d831d92641/jetified-viewbinding-4.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/cc450b7a55b3657fdec501d831d92641/jetified-viewbinding-4.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30ad1e15796e6079032b90678b801862/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30ad1e15796e6079032b90678b801862/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:v2-user:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/dc7c4c6b008f958783ecf4562f2a5533/jetified-v2-user-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-user:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/dc7c4c6b008f958783ecf4562f2a5533/jetified-v2-user-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-talk:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/90b82b784b1c2e35b7d9499ee3ed1902/jetified-v2-talk-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-talk:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/90b82b784b1c2e35b7d9499ee3ed1902/jetified-v2-talk-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-story:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8eb02f0ca4ab2b8f90ffd28f85dd74c1/jetified-v2-story-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-story:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8eb02f0ca4ab2b8f90ffd28f85dd74c1/jetified-v2-story-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2817580fb52b01b6a3b967c0143d9134/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d7de2dc3bc859c7215eda8912d27136/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d7de2dc3bc859c7215eda8912d27136/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.kakao.sdk:v2-link:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/6ef7d961e839c469d64a24b5e34490a8/jetified-v2-link-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-link:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/6ef7d961e839c469d64a24b5e34490a8/jetified-v2-link-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/f14dce0b4344eb0a6956e396cba5c343/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/f14dce0b4344eb0a6956e396cba5c343/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.kakao.sdk:v2-template:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d98b723cff24ee1fa217fe37fd616ef/jetified-v2-template-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-template:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d98b723cff24ee1fa217fe37fd616ef/jetified-v2-template-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/43431b80c84bfc9fa26ea02a1787195f/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/43431b80c84bfc9fa26ea02a1787195f/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/4eadab53ead467fc9f8fc09cb3d98f36/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/9a632407174e76d252cf735e6fa5479e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/0374e4f6c0146dad3627e6a932104d52/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/3ec18cc8a559ac30df85d0d855fb7b0e/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/3ec18cc8a559ac30df85d0d855fb7b0e/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/866a6791e8083f045b6388af6b7adb19/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/866a6791e8083f045b6388af6b7adb19/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/16a8267d0291291dcc1a609471380a9c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/95ced69cafe6805b58e9dd0dffd59649/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/18b16aa5ed02f5e0b00484bf9f1fa3d3/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/48f40b4bff62b82e4e7c64500f885fe5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/b21ba4622a4c3ddea1d70095b459705f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/099016dddd819b2b4d739e65902bcbeb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/0c2802306bb87693689e92aadd05386c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/074253efb44a5fb15a016d6ddd80a045/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/9df30f74352a2e3710d6bf7ff2a07eb9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/5503ff9e4fba1ca944360e0ad846cffa/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/5503ff9e4fba1ca944360e0ad846cffa/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/4cdc4d15bd8e40fa5dedb6f3c6c1ced4/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/68e1d3c89f064dbd5b1dd42f830935d8/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/08dbee4b9d3fa09854fb2ca6ea3e66ef/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/77a5724d313573081e18b4dcd4ea7fd1/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/30640967c0260dfa3f0084289359bc3b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/381df62da00fed15579b7b9f69e771ec/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/381df62da00fed15579b7b9f69e771ec/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/fec2ec80030f1d09e810d5e19a899664/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/fec2ec80030f1d09e810d5e19a899664/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/660b92ca70a8558446c387ae4e7bdc42/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/660b92ca70a8558446c387ae4e7bdc42/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7c2cad3e78ad42de7cf077768b385948/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7c2cad3e78ad42de7cf077768b385948/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2369de5657f5656a0f2fb83cd2e1b6bd/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2369de5657f5656a0f2fb83cd2e1b6bd/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7a24fa065fdd5b02d46f996a244c8968/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/7a24fa065fdd5b02d46f996a244c8968/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/471922250ef12ae0d0c5a1035d583d5d/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/471922250ef12ae0d0c5a1035d583d5d/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/988785254883d0455949a354e27f4b1c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/5926825aae1efb554c51c7d50811be02/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/5926825aae1efb554c51c7d50811be02/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/535b316eb59403c1a9122a03636063ed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/535b316eb59403c1a9122a03636063ed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d4ca56c128363fbcd558fe6d20ec511/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8d4ca56c128363fbcd558fe6d20ec511/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/6b484bc30989fc8c978987e8364cc2c3/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/8a7d8a8e39620c81ff29a207de019f67/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d954f49754fed3a637e8aac52f5ffb7a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2d9959f3a90288d3a16c8d3481853e50/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/2d9959f3a90288d3a16c8d3481853e50/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yejinryu/AndroidStudioProjects/확정/KakaoLogin/app/src/main/AndroidManifest.xml
+activity#com.kakao.sdk.auth.TalkAuthCodeActivity
+ADDED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:12:9-16:56
+	android:launchMode
+		ADDED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:15:13-44
+	android:exported
+		ADDED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:16:13-53
+	android:name
+		ADDED from [com.kakao.sdk:v2-auth:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/62f2783d8889ea753d1b903ab89ceffb/jetified-v2-auth-2.1.0/AndroidManifest.xml:13:13-67
+queries
+ADDED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:11:5-14:15
+MERGED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:11:5-17:15
+MERGED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:11:5-17:15
+package#com.locnall.KimGiSa
+ADDED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:12:9-55
+	android:name
+		ADDED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:12:18-52
+package#com.lguplus.navi
+ADDED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:13:9-52
+	android:name
+		ADDED from [com.kakao.sdk:v2-navi:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/d6d6d164a1ce62dc75958c507862930b/jetified-v2-navi-2.1.0/AndroidManifest.xml:13:18-49
+package#com.kakao.talk
+ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:12:9-50
+	android:name
+		ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:12:18-47
+package#com.kakao.onetalk
+ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:13:9-53
+	android:name
+		ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:13:18-50
+package#com.android.chrome
+ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:14:9-54
+	android:name
+		ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:14:18-51
+package#com.chrome.beta
+ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:15:9-51
+	android:name
+		ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:15:18-48
+package#com.chrome.dev
+ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:16:9-50
+	android:name
+		ADDED from [com.kakao.sdk:v2-common:2.1.0] /Users/yejinryu/.gradle/caches/transforms-2/files-2.1/222934e14c0f08b5e7845393b5a7400d/jetified-v2-common-2.1.0/AndroidManifest.xml:16:18-47
