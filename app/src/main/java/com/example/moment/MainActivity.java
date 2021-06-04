@@ -1,11 +1,11 @@
 package com.example.moment;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,5 +38,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // '설정' 버튼 클릭
+        Button btn_setting = (Button) findViewById(R.id.button3);
+        btn_setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SettingActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
+
 }

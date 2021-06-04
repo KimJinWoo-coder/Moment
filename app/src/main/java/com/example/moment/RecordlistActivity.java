@@ -1,9 +1,7 @@
 package com.example.moment;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -12,22 +10,37 @@ import androidx.appcompat.app.AppCompatActivity;
 public class RecordlistActivity extends AppCompatActivity {
 
     TextView myname;
+    ImageView mypath1;
     //Intent intent = getIntent();
     //String name = intent.getStringExtra("name");
-    
+    /*public String get = getIntent().getStringExtra("Img");
+
+    public static Bitmap StringToBitmap(String get) {
+        try {
+            byte[] encodeByte = Base64.decode(get, Base64.DEFAULT);
+            Bitmap bmp = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
+            return bmp;
+        } catch (Exception e) {
+            e.getMessage();
+            return null;
+        }
+
+    } */
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recordlist);
 
-
-        Intent intent = getIntent();
+        /*Intent intent = getIntent();
         String name = intent.getStringExtra("name");
         myname = (TextView)findViewById(R.id.myname);
         myname.setText(name);
-        saveState();
+        saveState(); */
 
-    }
+
+
 /*
     @Override
     protected void onPause() { // Activity가 보이지 않을때 값을 저장한다.
@@ -44,7 +57,7 @@ public class RecordlistActivity extends AppCompatActivity {
 
     }
 */
-    protected void saveState(){ // 데이터를 저장한다.
+    /*protected void saveState(){ // 데이터를 저장한다.
         SharedPreferences pref = getSharedPreferences("pref", Activity.MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
         Intent intent = getIntent();
@@ -63,4 +76,4 @@ public class RecordlistActivity extends AppCompatActivity {
 
     } */
 
-}
+}}

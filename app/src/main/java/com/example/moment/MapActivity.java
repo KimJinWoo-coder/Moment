@@ -1,12 +1,15 @@
 package com.example.moment;
 
 import android.Manifest;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.location.Location;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -20,12 +23,14 @@ import com.skt.Tmap.TMapPolyLine;
 import com.skt.Tmap.TMapView;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.OutputStream;
-import java.util.ArrayList;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class MapActivity extends AppCompatActivity implements TMapGpsManager.onLocationChangedCallback {
-
+    // T Map API
     String API_Key = "l7xx4e73edbc96c742a0a4a0f8379a11d274";
 
     // T Map View
@@ -34,13 +39,22 @@ public class MapActivity extends AppCompatActivity implements TMapGpsManager.onL
     // T Map GPS
     TMapGpsManager tMapGPS = null;
 
+    //container
+    private LinearLayout container;
+    //Intent
+    Intent sharingIntent;
+    //Intent intent;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
+        sharingIntent = new Intent(this, RecordlistActivity.class);
+        //intent = new Intent(this, RecordlistActivity.class);
+
+        // set button Stop GPS
         Button stopRec = findViewById(R.id.stopRec);
-        //button setting
         stopRec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,6 +62,17 @@ public class MapActivity extends AppCompatActivity implements TMapGpsManager.onL
                 Toast.makeText(getApplicationContext(),"경로 기록을 종료합니다.", Toast.LENGTH_SHORT).show();
             }
 
+        });
+
+        // set button screenshot
+        Button share = (Button) findViewById(R.id.share);
+        share.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                getCaptureScreen();
+
+                                }
         });
 
         // T Map View
@@ -76,71 +101,79 @@ public class MapActivity extends AppCompatActivity implements TMapGpsManager.onL
 
         // Initial Setting
         tMapGPS.setMinTime(1000);
-        tMapGPS.setMinDistance(10);
+        tMapGPS.setMinDistance(6);
         tMapGPS.setProvider(TMapGpsManager.NETWORK_PROVIDER);
-
-        //tMapGPS.setProvider(tMapGPS.GPS_PROVIDER);
+        tMapGPS.setProvider(tMapGPS.GPS_PROVIDER);
         tMapGPS.OpenGps();
 
-        //스크린캡쳐 버튼 할당
-        Button share = (Button) findViewById(R.id.share);
-        share.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                captureImage();
-                Toast.makeText(getApplicationContext(),"캡쳐했습니다.", Toast.LENGTH_SHORT).show();}
-        });
 
     }
-    //스크린캡쳐
-    public void captureImage() {
-        tMapView.getCaptureImage(20, new TMapView.MapCaptureImageListenerCallback() {
+    //screenshot
+    private void getCaptureScreen() {
+        container = (LinearLayout) findViewById(R.id.linearLayoutTmap);
+        String now = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
+        container.buildDrawingCache();
+        container.setDrawingCacheEnabled(true);
+        Bitmap captureView = container.getDrawingCache();
+        FileOutputStream fos;
+
+        String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/DCIM/Camera/" + now + "capture.jpeg"; //저장 경로 (String Type 변수)
+        File file = new File(path);
+
+
+        try {
+            fos = new FileOutputStream(file);
+            captureView.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+            sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(file)));
+            fos.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Toast.makeText(getApplicationContext(), "캡쳐되었습니다", Toast.LENGTH_LONG).show();
+        container.setDrawingCacheEnabled(false);
+
+        sharingIntent.setType("image/*");
+        Uri uri = Uri.parse(path);
+        sharingIntent.putExtra("Img", uri.toString()); //이미지를 uri로 전송
+
+        new Handler().postDelayed(new Runnable() {
             @Override
-            public void onMapCaptureImage(Bitmap bitmap) {
-
-                String sdcard = Environment.getExternalStorageDirectory().getAbsolutePath();
-
-                File path = new File(sdcard); //+ File.separator + "image_write"
-                if (!path.exists())
-                    path.mkdir();
-
-                File fileCacheItem = new File(path.toString() + File.separator + System.currentTimeMillis() + ".png");
-                OutputStream out = null;
-
-                try {
-                    fileCacheItem.createNewFile();
-                    out = new FileOutputStream(fileCacheItem);
-
-                    bitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
-
-                    out.flush();
-                    out.close();
-
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+            public void run() {
+                startActivity(sharingIntent);
             }
-        });
+        }, 1000L);
+
     }
+
 
     TMapPolyLine tMapPolyLine = new TMapPolyLine();
-    ArrayList<TMapPoint> alTMapPoint = new ArrayList<TMapPoint>();
+        //ArrayList<TMapPoint> alTMapPoint = new ArrayList<TMapPoint>();
+
 
     @Override
     public void onLocationChange(Location location) {
         tMapView.setLocationPoint(location.getLongitude(), location.getLatitude());
         tMapView.setCenterPoint(location.getLongitude(), location.getLatitude());
-        TMapPoint point = tMapGPS.getLocation();
-        double Latitude = point.getLatitude();
-        double Longitude = point.getLongitude();
+        //TMapPoint point = tMapGPS.getLocation();
+
+        double Latitude = location.getLatitude();
+        double Longitude = location.getLongitude();
+        TMapPoint point = new TMapPoint(Latitude, Longitude);
         // Log.i("point", String.valueOf(point));
 
-        alTMapPoint.add( new TMapPoint(Latitude, Longitude) );
+        //alTMapPoint.add( new TMapPoint(Latitude, Longitude) );
         tMapPolyLine.setLineColor(Color.BLUE);
         tMapPolyLine.setLineWidth(2);
+
+        tMapPolyLine.addLinePoint(point);
         tMapView.addTMapPolyLine("Line", tMapPolyLine);
+
     }
+
 
 
 }
