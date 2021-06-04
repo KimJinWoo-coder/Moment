@@ -65,21 +65,19 @@ public class MapActivity extends AppCompatActivity implements TMapGpsManager.onL
         tMapGPS.OpenGps();
     }
 
+    // T Map Polyline
     TMapPolyLine tMapPolyLine = new TMapPolyLine();
-    ArrayList<TMapPoint> alTMapPoint = new ArrayList<TMapPoint>();
-
     @Override
     public void onLocationChange(Location location) {
         tMapView.setLocationPoint(location.getLongitude(), location.getLatitude());
         tMapView.setCenterPoint(location.getLongitude(), location.getLatitude());
-        TMapPoint point = tMapGPS.getLocation();
-        double Latitude = point.getLatitude();
-        double Longitude = point.getLongitude();
-        // Log.i("point", String.valueOf(point));
 
-        alTMapPoint.add( new TMapPoint(Latitude, Longitude) );
-        tMapPolyLine.setLineColor(Color.BLUE);
+        double Latitude = location.getLatitude();
+        double Longitude = location.getLongitude();
+
+        tMapPolyLine.addLinePoint(new TMapPoint(Latitude, Longitude));
         tMapPolyLine.setLineWidth(2);
+        tMapPolyLine.setLineColor(Color.BLUE);
         tMapView.addTMapPolyLine("Line", tMapPolyLine);
     }
 }
