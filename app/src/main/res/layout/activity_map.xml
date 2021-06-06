@@ -8,10 +8,32 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/stopRec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="기록중지" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="캡쳐 및 공유" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/linearLayoutTmap"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+
     </LinearLayout>
 
 </android.widget.LinearLayout>
