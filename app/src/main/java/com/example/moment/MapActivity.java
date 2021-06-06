@@ -1,6 +1,8 @@
 package com.example.moment;
 
 import android.Manifest;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Build;
@@ -11,6 +13,7 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.skt.Tmap.TMapGpsManager;
+import com.skt.Tmap.TMapMarkerItem;
 import com.skt.Tmap.TMapPoint;
 import com.skt.Tmap.TMapPolyLine;
 import com.skt.Tmap.TMapView;
@@ -79,5 +82,18 @@ public class MapActivity extends AppCompatActivity implements TMapGpsManager.onL
         tMapPolyLine.setLineWidth(2);
         tMapPolyLine.setLineColor(Color.BLUE);
         tMapView.addTMapPolyLine("Line", tMapPolyLine);
+
+
+        // 지도 위 이미지(마커) 추가
+        TMapMarkerItem markerItem1 = new TMapMarkerItem();
+        Bitmap image;
+        Bitmap resized;
+
+        image = BitmapFactory.decodeResource(this.getResources(), R.drawable.sample_profile);
+        resized = Bitmap.createScaledBitmap(image, 200, 200, true);
+
+        markerItem1.setIcon(resized); // 마커 아이콘 지정
+        markerItem1.setTMapPoint(new TMapPoint(Latitude, Longitude)); // 마커 위치 지정
+        tMapView.addMarkerItem("markerItem1", markerItem1); // 지도에 마커 추가
     }
 }
